@@ -1,0 +1,37 @@
+Check git version
+
+
+Git --version
+
+Git config --global user.email ""
+Git config --global user.name ""
+
+Cd /User/pparkst/Documents/git/Test 
+
+Location set
+
+Git init
+
+Defaults write com.apple.finder AppleShowAllFiles YES
+
+Git Status check
+
+Touch test.txt
+
+Git Status
+
+Git add test.txt or *.txt or *.* or .
+
+Git status
+
+Git commit -m "message"
+
+Git status
+
+Git remote add origin (GitHublocation)
+
+Git push -u origin master
+
+Git log
+
+Git --help
