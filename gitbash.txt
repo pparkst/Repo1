@@ -16,6 +16,8 @@ Defaults write com.apple.finder AppleShowAllFiles YES
 
 Git Status check
 
+Git branch testBranch
+
 Touch test.txt
 
 Git Status
@@ -27,6 +29,18 @@ Git status
 Git commit -m "message"
 
 Git status
+
+Git push
+
+Git checkout master
+
+Git merge testBranch
+
+Git status
+
+Git Push
+
+-------
 
 Git remote add origin (GitHublocation)
 
