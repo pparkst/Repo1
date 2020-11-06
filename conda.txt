@@ -1,0 +1,33 @@
+$ conda -v
+
+$ conda update --all
+
+$ conda env list
+
+$ conda info - 현 가상환경 정보
+
+$ conda create -n [가상환경 이름] python=3.6
+
+$ conda env remove -n [가상환경 이름]
+
+$ conda list - 현 가상환경 패키지 정보
+
+$ conda activate [가상환경 이름]
+
+$ conda deactivate
+
+$ conda install [패키지 이름] - 현 가상환경 패키지 설치
+
+$ conda uninstall [패키지 이름]
+
+$ conda create --name [새로운 가상환경 이름] --clone [복사할 가상환경 이름]
+
+
+
+Jupyter NoteBook 접속 환경설정
+
+$ python -m ipykernel install --user --name [가상환경 이름] --display-name "[이름]"
+
+$ juypter notebook
+
+
